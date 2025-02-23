@@ -1,29 +1,12 @@
 version: "3.8"
+
 services:
   springboot-app:
     build: .
     ports:
       - "8080:8080"
-    # environment:
-    #   DBURL: postgres:5432
-    #   DBNAME: library-app
-    #   DBUSERNAME: postgres
-    #   DBPASSWORD: postgres
-
     environment:
       DBURL: ep-purple-hill-a2287f2t.eu-central-1.pg.koyeb.app
-      DBNAME: koyebdb
+      DBNAME: library-db
       DBUSERNAME: koyeb-adm
-      DBPASSWORD: npg_lSonkm0zGPX5
-
-  #   depends_on:
-  #     - postgres
-  # postgres:
-  #   image: postgres
-  #   ports:
-  #     - 5432:5432
-  #   environment:
-  #     POSTGRES_USER: postgres
-  #     POSTGRES_PASSWORD: postgres
-  #     POSTGRES_DB: library-app
-#koyeb-adm:npg_lSonkm0zGPX5@ep-purple-hill-a2287f2t.eu-central-1.pg.koyeb.app/koyebdb
+      DBPASSWORD: npg_LSonkm0zGPX5
