@@ -1,12 +1,11 @@
 version: "3.8"
-
 services:
   springboot-app:
     build: .
     ports:
       - "8080:8080"
     environment:
-      DBURL: ep-purple-hill-a2287f2t.eu-central-1.pg.koyeb.app
-      DBNAME: library-db
+      DBURL: postgres://ep-raspy-wave-a21s57cd.eu-central-1.pg.koyeb.app/
+      DBNAME: koyebdb
       DBUSERNAME: koyeb-adm
-      DBPASSWORD: npg_LSonkm0zGPX5
+      DBPASSWORD: npg_Fl0eoWQYnOI5
