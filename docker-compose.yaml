@@ -11,7 +11,7 @@ services:
     #   DBPASSWORD: postgres
 
     environment:
-      DBURL: postgres:ep-purple-hill-a2287f2t.eu-central-1.pg.koyeb.app
+      DBURL: jdbc:postgres:ep-purple-hill-a2287f2t.eu-central-1.pg.koyeb.app
       DBNAME: koyebdb
       DBUSERNAME: koyeb-adm
       DBPASSWORD: npg_lSonkm0zGPX5
