@@ -5,7 +5,8 @@ services:
     ports:
       - "8080:8080"
     environment:
-      DBURL: postgres:5432//ep-raspy-wave-a21s57cd.eu-central-1.pg.koyeb.app/
+      DBURL: postgres:5432
       DBNAME: koyebdb
       DBUSERNAME: koyeb-adm
       DBPASSWORD: npg_Fl0eoWQYnOI5
+#//ep-raspy-wave-a21s57cd.eu-central-1.pg.koyeb.app/
